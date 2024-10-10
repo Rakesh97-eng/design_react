@@ -1,0 +1,58 @@
+.addbtn{
+    background-color: var(--befreebgcolor);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+.countvalue{
+    font-size: 12px;
+    padding: 1px;
+    margin-right: 5px;
+    height: 17px;
+    width: 17px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: 550;
+    font-family: poppins;
+}
+
+
+.filtercontainer{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 2px 8px;
+    height: max-content;
+    align-self: center;
+    font-family: poppins !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flexcontainer{
+    display: flex;
+    justify-content:space-between;
+}
+
+.tablewrapper{
+    padding: 2px 4px;
+    color: var(--befreecolor)
+}
+
+.tablecontainer{
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    
+}

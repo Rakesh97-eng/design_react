@@ -1,0 +1,39 @@
+.notificationname{
+    font-weight: 550;
+    margin-right: 3px;
+}
+
+.notificationrequest{
+    font-weight: 400;
+    color: var(--befreecolor);
+    font-size: 13px;
+}
+
+.notificationflexcontainer{
+    display: flex;
+    gap: 10px;
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+}
+
+.pendingclr{
+    color: #FF9500;
+    font-weight: 500;
+}
+
+.approvedclr{
+    color:#28CA42;
+    font-weight: 500;
+}
+
+.notificationview{
+    border: none;
+    background-color:#29b2e860 ;
+    color: var(--befreebgcolor);
+    font-size: 14px;
+    font-weight: 550;
+    border-radius: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+}

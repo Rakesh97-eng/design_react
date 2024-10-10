@@ -1,0 +1,62 @@
+.addbtn{
+    background-color: var(--befreebgcolor);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+
+
+.filtercontainer{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 2px 8px;
+    height: max-content;
+    align-self: center;
+    font-family: poppins !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flexcontainer{
+    display: flex;
+    justify-content:space-between;
+}
+
+.tablewrapper{
+    padding: 2px 4px;
+    color: var(--befreecolor)
+}
+
+.tablecontainer{
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+
+.automationtabcontainer{
+    margin:5px 6px;
+    padding: 3px 8px;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+
+}
+
+.activetab{
+    background-color: #299fd64d;
+    border-radius: 10px;
+    color: var(--befreebgcolor);
+    font-weight: 550;
+}

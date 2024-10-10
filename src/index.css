@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p, h1, h2, h3, h4, h5, h6, div,span {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+--befreegradient : linear-gradient(180deg, #173261 0%, #2F67C7 100%);
+--befreebgcolor:#299FD6;
+--befreecolor:#5A6C83 !important;
+
+}

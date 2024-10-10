@@ -1,0 +1,21 @@
+.selectcontainer{
+    border-radius: 5px;
+    padding: 5px;
+    font-family: poppins;
+    border:1px solid gray;
+    color: gray;
+    width: 100%;
+}
+
+.selectcontainer:focus{
+    border: 1px solid blue;
+}
+
+.labelcontainer{
+    padding-bottom: 8px;
+    display: inline-block;
+    font-family: poppins;
+    font-weight: 550;
+    font-size: 14px;
+
+}

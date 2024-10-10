@@ -1,0 +1,23 @@
+
+
+.login-container{
+    display: flex ;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: white;
+
+}
+
+.login-box-container{
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    background-color: #b4cefb38;
+    border-radius: 8px;
+    
+}

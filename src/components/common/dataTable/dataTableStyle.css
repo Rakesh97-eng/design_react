@@ -1,0 +1,73 @@
+.tablecolumncoontainer{
+    background-color: #F1F4F9;
+    border-radius: 15px !important;
+    border: 1px solid F1F4F9;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+
+
+}
+
+.tablecolumncell {
+    font-family: Poppins !important;
+    font-size: 14px !important;
+    font-weight: 550 !important;
+}
+
+.tablerowcell{
+    color: #5A6C83 !important;
+    font-family: Poppins !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    justify-content: center !important;
+}
+
+.tablecheckbox{
+    color: #151B2D !important;
+}
+
+thead.MuiTableHead-root {
+    border-radius: 8px 8px 0 0; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensures the corners are visible */
+}
+
+.dropdownlistcontainer{
+    padding: 10px;
+}
+
+.listnamecontainer{
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.addbtn{
+    background-color: var(--befreebgcolor);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+
+.countvalue{
+    font-size: 12px;
+    padding: 1px;
+    margin-right: 5px;
+    height: 17px;
+    width: 17px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: 550;
+    font-family: poppins;
+}

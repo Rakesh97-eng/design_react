@@ -1,0 +1,41 @@
+.dashchartcontainer{
+    margin-top: 3%;
+}
+
+.dashcharttitle{
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+}
+
+.dashcharttitle:before {
+    position: absolute;
+    background: linear-gradient(to right, #299FD6 50px, #ccc 50px);
+    height: 4px;
+    content: '';
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 28px;
+}
+
+.dashchartchild{
+    padding: 1% 20px;
+    background-color: white;
+    border-radius: 20px !important;
+
+}
+
+
+
+.adminflexcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.downloadbutton{
+    font-size: 50px;
+    color: gray;
+    margin-left: 5px;
+}
+
